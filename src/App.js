@@ -1,7 +1,7 @@
 import React from 'react';
-import './Timeline.css';
+import './App.css';
 
-function Timeline() {
+function App() {
   return (
     <div className="timeline">
       <div className="status">
@@ -26,4 +26,4 @@ function Timeline() {
   );
 }
 
-export default Timeline;
+export default App;

@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Props Lab: Facebook Timeline
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Props Lab: Facebook App
 
 In this lab, you'll be creating a Facebook timeline with multiple statuses, but as little repeated code as possible!
 
@@ -6,11 +6,11 @@ In this lab, you'll be creating a Facebook timeline with multiple statuses, but 
 1. `cd` into the repository you cloned.
 1. Run `npm install` to install your dependencies.
 1. Run `npm run start` to get your server up and running.
-1. Open up your text editor, and checkout `src/Timeline.js`. Right now, there's React code for one hardcoded status. We're going to refactor this code so that there is a `Timeline` component that renders multiple `Status` subcomponents.
-  1. Create a new file `Status.js` and create a React component in that file. Don't forget to export the component!
-  1. Move everything inside the `.status` element in the `Timeline` component into your new `Status` component.
-  1. Import and render your new `Status` component within your `Timeline` component.
-  1. Render three `Status` components inside your `Timeline` component. Right now all of them will have the same text and user information. Let's make that information dynamic.
+1. Open up your text editor, and checkout `src/App.js`. Right now, there's React code for one hardcoded status. We're going to refactor this code so that there is a `App` component that renders multiple `Status` subcomponents.
+  1. Create a new file `Status.jsx` and create a React component in that file. Don't forget to export the component!
+  1. Move everything inside the `.status` element in the `App` component into your new `Status` component.
+  1. Import and render your new `Status` component within your `App` component.
+  1. Render three `Status` components inside your `App` component. Right now all of them will have the same text and user information. Let's make that information dynamic.
 
 ![](img/statuses.png)
 
